@@ -51,10 +51,7 @@ Plugin 'drmingdrmer/xptemplate.git'
 Plugin 'robhudson/snipmate_for_django'
 Plugin 'mattn/emmet-vim'
 Plugin 'git://git.wincent.com/command-t.git'
-Plugin "MarcWeber/vim-addon-mw-utils"
-Plugin "tomtom/tlib_vim"
-Plugin "garbas/vim-snipmate"
-Plugin "honza/vim-snippets"
+
 " ===================== 载入插件结束 ============================
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -71,8 +68,6 @@ filetype plugin indent on    " required
 " =================== end vundle ====================
 
 let g:xptemplate_vars="$author=liiker&$email=liiker@qq.com"
-
-colorscheme github
 
 " Settings for tagslist
 let Tlist_Use_Right_Window = 1 "让taglist窗口出现在Vim的右边
